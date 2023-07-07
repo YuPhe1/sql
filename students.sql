@@ -44,3 +44,5 @@ DELETE FROM STUDENTS
 WHERE SNO = '202301';
 
 commit;
+
+select * from students;
