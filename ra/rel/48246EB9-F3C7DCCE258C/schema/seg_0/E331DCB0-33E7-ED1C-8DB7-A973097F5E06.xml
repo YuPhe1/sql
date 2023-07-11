@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="JAVA" directorySegmentName="seg_0" id="E331DCB0-33E7-ED1C-8DB7-A973097F5E06">
-<createdBy>user</createdBy>
-<createdTime>2023-07-07 01:44:08 UTC</createdTime>
-<generatorID>사용자 생성</generatorID>
-<ownerDesignName>ra</ownerDesignName>
-</SchemaObject>
