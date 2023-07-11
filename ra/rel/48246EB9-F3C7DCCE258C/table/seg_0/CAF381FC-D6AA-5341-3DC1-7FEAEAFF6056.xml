@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAF381FC-D6AA-5341-3DC1-7FEAEAFF6056" name="PRODUCTS">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>PRODUCTS</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:44:08 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>ra</ownerDesignName>
+<schemaObject>E331DCB0-33E7-ED1C-8DB7-A973097F5E06</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PCODE" id="1AE48AF2-A077-9D43-CB0E-B5179E8AC5EC">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:44:08 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>ra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNAME" id="4E7A420B-A27D-8267-3309-F34246AF36EB">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PNAME</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:44:08 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>ra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PPRICE" id="279C891E-7D1D-B8A9-C536-0D967DB70010">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PPRICE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:44:08 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>ra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD8F0527-F91D-5D1D-C7B1-F0EAB0C9404A" name="PRODUCTS_PK">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>SYS_C007026</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:44:08 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>ra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>E331DCB0-33E7-ED1C-8DB7-A973097F5E06</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE48AF2-A077-9D43-CB0E-B5179E8AC5EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

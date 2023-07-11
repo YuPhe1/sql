@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ra" id="582829A5-62E1-D782-A7DC-2A7C2478354D" version="3.5">
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:42:53 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>ra</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>582829A5-62E1-D782-A7DC-2A7C2478354D</designId>
+</OSDM_Design>
