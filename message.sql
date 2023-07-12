@@ -52,8 +52,13 @@ from messages m, users u
 where sender = 'blue' and u.id = m.RECEIVER;
 
 -- 블루가 받은 메세지
-select m.* , u.UNAME, PHONE
+select m.* , u.UNAME
 from messages m, users u
 where receiver = 'blue' and u.id = m.sender;
 
 commit;
+
+desc messages;
+
+alter table messages add sdel int default 0;
+alter table messages add rdel int default 0;
