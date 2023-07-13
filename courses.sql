@@ -64,3 +64,4 @@ select * from VIEW_ENROLS order by scode;
 commit;
 
 select max(scode)+1 ncode from students;
+select * from view_enrols where scode = '202302';
