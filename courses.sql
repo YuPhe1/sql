@@ -62,3 +62,5 @@ where s.SCODE = e.SCODE and c.CCODE = e.CCODE;
 select * from VIEW_ENROLS order by scode;
 
 commit;
+
+select max(scode)+1 ncode from students;
