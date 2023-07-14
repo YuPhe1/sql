@@ -87,10 +87,13 @@ insert into camp_type values('102', 2);
 select * from camp_type;
 
 commit;
-  
+
+create view view_facil as
 select c.*, f.fname
 from CAMP_FACIL c, facil f
 where c.fno = f.fno;
+
+select * from VIEW_FACIL;
 
 select c.*, t.tname
 from camp_type c, type t
